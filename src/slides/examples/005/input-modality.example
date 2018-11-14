@@ -1,0 +1,17 @@
+const Example = () => {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <Fragment>
+      <div
+        className="button"
+        onClick={() => setOpen(!open)}
+      >Menu</div>
+      {open && (
+        <div className="result">
+          I am open!
+        </div>
+      )}
+    </Fragment>
+  );
+}

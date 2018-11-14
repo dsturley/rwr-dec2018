@@ -1,0 +1,27 @@
+
+.example-menu {
+
+}
+
+.example-menu .button {
+
+}
+
+.example-menu .submenu {
+  display: none;
+}
+
+.example-menu .submenu {
+  display: block;
+}
+
+.button {
+  color: white;
+  background: green;
+  padding: 12px;
+  display: inline-block;
+}
+
+.result {
+  margin-top: 10px;
+}

@@ -1,0 +1,19 @@
+const Example = () => {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <Fragment>
+      <SmartButton
+        className="button"
+        onClick={() => setOpen(!open)}
+        aria-expanded={open}
+      >Menu</SmartButton>
+
+      {open && (
+        <div className="result">
+          I am open!
+        </div>
+      )}
+    </Fragment>
+  );
+}

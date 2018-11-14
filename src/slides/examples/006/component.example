@@ -1,0 +1,7 @@
+const SmartButton = (props) => {
+  if (!props.href) {
+    return <button type="button" {...props} />;
+  }
+
+  return <a {...props} />;
+};
