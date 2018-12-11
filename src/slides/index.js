@@ -15,5 +15,6 @@ export default [
   require('./006b-components').default,
   require('./006c-aria').default,
   require('./007-wrap').default,
+  require('./008-resources').default,
   require('./end').default,
 ];
